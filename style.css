@@ -149,6 +149,11 @@ body {
         bottom: auto;
         left: auto;
     }
+    .container .main-pic .sq-img {
+        position: absolute;
+        top: 75px;
+        left: 0;
+    }
 
 }
 
@@ -160,11 +165,14 @@ body {
     .container .main-pic {
         top: 35px;
     }
+    .container .main-pic img {
+        max-width: 75%;
+        margin-left: -50px;
+        margin-top: -30px;
+    }
     .container .accordion .line .accordion-body.show {
         font-size: .8rem;
         height: 60px;
     }
-    .container .main-pic .sq-img {
 
-    }
 }
